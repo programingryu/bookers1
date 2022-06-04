@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebCampBackendNew</title>
+</head>
+<body>
+    
+<p class="flash"><%= flash[:notice] %></p>
+
+<div class="flex">
+    <h2 class="title">Title:</h2>
+    <p class="title-name"><%= @book.title %></p>
+</div>
+
+<div class="flex">
+    <h2 class="body">Body:</h2>
+    <p class="body-content"><%= @book.body %></p>
+</div>
+
+<%= link_to "Edit", edit_book_path(@book.id) %> |
+<%= link_to "Back", books_path %>
+
+</body>
+</html>

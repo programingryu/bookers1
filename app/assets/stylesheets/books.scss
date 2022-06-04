@@ -1,0 +1,87 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+body{
+    margin: 30px;
+}
+
+a {
+    color: black;
+}
+
+.errors-box{
+    width: 450px;
+    border: 2px solid red;
+    padding: 7px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    // background-color: #f0f0f0;
+    background-color: gray;
+}
+
+// .e-big{
+//     background-color: yellow;
+// }
+
+.e-h{
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0;
+    background-color: #c00;
+    color: #fff;
+}
+
+.e-small{
+    background-color: gray;
+}
+
+.e-ul{
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+.e-detail{
+    font-size: 12px;
+    list-style: square;
+}
+
+.flash{
+    color: green;
+}
+
+.flex{
+    display: flex;
+    // height: 100px;
+}
+
+.title{
+    font-size: 20px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+.title-name{
+    // font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 18px;
+    margin: 33px;
+    // vertical-align:middle;
+}
+
+.body{
+    font-size: 20px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+.body-content{
+    font-size: 20px;
+    line-height: 18px;
+    margin: 33px;
+}
